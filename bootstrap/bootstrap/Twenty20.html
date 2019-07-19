@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<div class="navbar navbar-inverse nav-static-top">
+	<div class="cont">
+		<a href="index.html" class = "navbar-brand">Cricket NEWS</a>
+		<button class="navbar-toggle" data-toggle="collapse" data-target= ".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="collapse navbar-collapse navHeaderCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="worldcup.html">ICC World Cup</a></li>
+				<li class="active"><a href="Twenty20.html">Twenty20</a></li>
+				<li><a href="News.html">Headlines</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Social Media <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="www.twitter.com/ICC">Twitter</a></li>
+						<li><a href="https://www.facebook.com/icc">Facebook</a></li>
+						<li><a href="www.instagram.com/ICC">Instagram</a></li>
+						<li><a href="www.youtube.com/ICC">Youtube</a>
+					</ul>
+				</li>
+				<li><a href="#contact" data-toggle="modal">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="page-header">
+						<h3>T20 Cricket <br> <small>Sources: Britanica</small></h3>	
+					</div>
+				<p>
+					Twenty20 cricket, also called T20, truncated form of cricket that revolutionized the game when it was introduced in 2003 with rule changes that put a premium on hitting and scoring, gaining a new audience for cricket.<br><br>
+
+					The basic rules are the same as for the longer versions, but innings are limited to 20 overs a side (an over comprises six balls delivered, or thrown, by a bowler to a batsman at the opposite wicket), with a maximum of four overs for each bowler and restrictions on the placement of fielders designed to encourage big hitting by the batsmen and high scores. In a short time, T20 became the most popular and lucrative form of cricket, particularly in India, where huge crowds attend matches in the Indian Premier League (IPL) and millions more watch on television. A shortened form of cricket known as Cricket Max was developed in New Zealand in the 1990s by the former Test batsman Martin Crowe, but the official rules for T20 were established by the England and Wales Cricket Board, and the first tournament was played by the English county teams, in 2003.<br><br>
+
+					The format was quickly adopted by other countries, and two years later Australia and New Zealand played each other in a lighthearted T20 match in Auckland, the first official international T20 match. Both sides wore uniforms from the 1980s and wore (mostly fake) moustaches. It quickly became apparent, though, that T20 had the potential to attract a new, vibrant, young audience to cricket. The first T20 World Cup, played in South Africa in 2007, was won by India, creating a huge market for T20 on the subcontinent that was quickly exploited by the IPL. Subsequent World Cups were played in England in 2009 (won by Pakistan) and in the West Indies in 2010 (won by England). Each major cricketing country developed its own domestic T20 tournaments, and a Champions League competition between the best club sides—like that contested in European football (soccer)—is held at the end of each T20 season.<br><br>
+
+
+					With its cheerleaders, loud music, and quick-fire entertainment, T20 was credited with reviving cricket in the 21st century. After initial doubts, players began to master the new skills demanded by T20 and to improve their fielding, throwing, and fitness. Traditional cricket followers, however, feared that inevitably T20 would threaten the future of Test cricket, regarded as the purest and most intricate form of the game.<br>
+				</p>
+				<center><h4><b>World Cup Winners</b></h4>
+				<img class="featurepage" src="img/result.png" width="600px"></center>
+				<h4></h4>
+					<p></p>
+				</div> 
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<p class="navbar-text pull-left">Site built by Rohan Acharya</p>
+		<a href="#" class="navbar-btn btn-primary btn pull-right">Subscribe for Updates</a>
+	</div>
+</div>
+
+<div class="modal fade" id = "contact" role = "dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form class="form-horizontal">
+				<div class="modal-header">
+					<h4>Contact Cricket Site</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id = "contact-name" placeholder="Full Name">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id = "contact-email" placeholder="Email Adress">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows=8></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss = "modal">Cancel</a>
+					<button class="btn btn-primary" type ="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
