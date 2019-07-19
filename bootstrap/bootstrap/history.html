@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<div class="navbar navbar-inverse nav-static-top">
+	<div class="cont">
+		<a href="index.html" class = "navbar-brand">Cricket NEWS</a>
+		<button class="navbar-toggle" data-toggle="collapse" data-target= ".navHeaderCollapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="collapse navbar-collapse navHeaderCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="worldcup.html">ICC World Cup</a></li>
+				<li><a href="Twenty20.html">Twenty20</a></li>
+				<li><a href="News.html">Headlines</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Social Media <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="www.twitter.com/ICC">Twitter</a></li>
+						<li><a href="https://www.facebook.com/icc">Facebook</a></li>
+						<li><a href="www.instagram.com/ICC">Instagram</a></li>
+						<li><a href="www.youtube.com/ICC">Youtube</a>
+					</ul>
+				</li>
+				<li><a href="#contact" data-toggle="modal">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="page-header">
+						<h3>Cricket <br> <small>Sources: ICC Cricket</small></h3>	
+					</div>
+					<img class="featurepage" src="img/1.jpg" width="400px">
+				<p>
+					There is a consensus of expert opinion that cricket may have been invented during Saxon or Norman times by children living in the Weald, an area of dense woodlands and clearings in south-east England. The first reference to cricket being played as an adult sport was in 1611, and in the same year, a dictionary defined cricket as a boys' game. There is also the thought that cricket may have derived from bowls, by the intervention of a batsman trying to stop the ball from reaching its target by hitting it away.<br><br>
+
+					Village cricket had developed by the middle of the 17th century and the first English “county teams” were formed in the second half of the century, as “local experts” from village cricket were employed as the earliest professionals. The first known game in which the teams use county names is in 1709. <br><br>
+				</p>
+					<img class="featurepage" src="img/2.jpg" width="400px">
+				<p>
+					In the first half of the 18th Century cricket established itself as a leading sport in London and the south-eastern counties of England. Its spread was limited by the constraints of travel, but it was slowly gaining popularity in other parts of England and Women’s Cricket dates back to the 1745, when the first known match was played in Surrey.<br><br>
+
+					In 1744, the first Laws of Cricket were written and subsequently amended in 1774, when innovations such as lbw, a 3rd stump, - the middle stump and a maximum bat width were added. The codes were drawn up by the “Star and Garter Club” whose members ultimately founded the famous Marylebone Cricket Club at Lord's in 1787. MCC immediately became the custodian of the Laws and has made revisions ever since then to the current day.<br><br>
+				</p>
+					<img class="featurepage" src="img/3.jpg" width="400px">
+				<p>
+					Rolling the ball along the ground was superseded sometime after 1760 when bowlers began to pitch the ball and in response to that innovation the straight bat replaced the old “hockey-stick” style of bat. The Hambledon Club in Hampshire was the focal point of the game for about thirty years until the formation of MCC and the opening of Lord's Cricket Ground in 1787.<br><br>
+
+					Cricket was introduced to North America via the English colonies as early as the 17th century, and in the 18th century it arrived in other parts of the globe. It was introduced to the West Indies by colonists and to India by British East India Company mariners. It arrived in Australia almost as soon as colonisation began in 1788 and the sport reached New Zealand and South Africa in the early years of the 19th century.<br><br>
+				</p>
+					<h4></h4>
+					<p></p>
+				</div> 
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<p class="navbar-text pull-left">Site built by Rohan Acharya</p>
+		<a href="#" class="navbar-btn btn-primary btn pull-right">Subscribe for Updates</a>
+	</div>
+</div>
+
+<div class="modal fade" id = "contact" role = "dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form class="form-horizontal">
+				<div class="modal-header">
+					<h4>Contact Cricket Site</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id = "contact-name" placeholder="Full Name">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id = "contact-email" placeholder="Email Adress">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows=8></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss = "modal">Cancel</a>
+					<button class="btn btn-primary" type ="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
